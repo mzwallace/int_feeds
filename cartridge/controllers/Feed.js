@@ -40,8 +40,4 @@ function show() {
 /**
  * Export the publicly available controller methods
  */
-
-/** Renders cached product feed.
- * @see module:controllers/Feed~show
- */
 exports.Show = guard.ensure(['get'], show);
